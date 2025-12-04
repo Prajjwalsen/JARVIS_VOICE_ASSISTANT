@@ -1,0 +1,34 @@
+# JARVIS Voice-Controlled Assistant Environment Variables
+# Copy this file to .env and fill in your API keys
+
+# LLM Provider Selection (for chatbot, content generation, and realtime search)
+# Options: groq, openai, anthropic, cohere
+# Default: groq
+LLM_PROVIDER=groq
+
+# Groq API Key (if using groq as LLM_PROVIDER)
+# Get your API key from: https://console.groq.com/
+GroqAPIKey=your_groq_api_key_here
+GROQ_API_KEY=your_groq_api_key_here
+
+# OpenAI API Key (if using openai as LLM_PROVIDER)
+# Get your API key from: https://platform.openai.com/
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Anthropic API Key (if using anthropic as LLM_PROVIDER)
+# Get your API key from: https://console.anthropic.com/
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+
+# Cohere API Key (for decision-making model and if using cohere as LLM_PROVIDER)
+# Get your API key from: https://dashboard.cohere.ai/
+CohereAPIKey=your_cohere_api_key_here
+COHERE_API_KEY=your_cohere_api_key_here
+
+# User Configuration
+Username=User
+Assistantname=Jarvis
+
+# Speech Recognition Language
+# Options: en-US, en-GB, es-ES, fr-FR, de-DE, etc.
+InputLanguage=en-US
+

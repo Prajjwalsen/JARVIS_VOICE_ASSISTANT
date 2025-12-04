@@ -1,0 +1,28 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Build and distribution artifacts
+build/
+dist/
+
+# Project runtime/output data
+Data/
+Frontend/Files/*.data
+
+# Logs and OS-specific files
+*.log
+.DS_Store
+Thumbs.db
